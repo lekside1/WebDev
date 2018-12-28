@@ -1,0 +1,39 @@
+Fiver
+MontTremblant.jpg 
+5 no
+cat
+1/4 mont-tremblant 450 
+dishwasher laundromat parking
+Address: 444 Lithuania Mont-Tremblant T0A 2N0
+
+Tener
+Laurentides.jpg 
+10 yes 
+dog cat
+2/5 laurentides 900 
+parking bbq
+Address: 5ieme Avenue Laurentides T2P 0H3
+
+Fifteener
+Magog.jpg
+15 no 
+dog cat bird
+2/5 magog 1200 
+bbq parking dishwasher fire-place
+Address: 444  15A St-Pierre Magog T0A 2N0
+
+Tooney 
+Gatineau.jpg 
+2 no
+cat
+1/2 gatineau 300
+parking fire-place dishwasher
+Address: 1121 Blvd Cote Gatineau K1H 7Z1
+
+Fourer
+Quebec.jpg
+4 yes
+fox cow
+1/3 quebec-city 400 
+parking fire-place bbq balcony
+Address: 370 James High Quebec V1T 6N1

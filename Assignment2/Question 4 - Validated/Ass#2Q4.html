@@ -1,0 +1,44 @@
+<!--
+    Adelekan Faruq Aliu 27064896
+    SOEN 287 Assignment 2
+    Question 4 HTML file
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Question 4</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="question4.css">
+    <script>
+        /* print the table */
+        document.write("<table>",
+                    "<tr>",
+                    "<th>Question 4 Solution</th>",
+                    "</table>");
+
+        /* check pattern */               
+        function Patternmatch(names)
+        {   
+            var count = 0;
+            
+            for (var i = 0; i < names.length; i++) 
+            {
+                if(((names[i].search(/ly$/) != -1) || (names[i].search(/ne$/) != -1)) && (names[i].search(/a/) != -1)) {
+                    count++;
+                }
+            }
+            return count;
+        }
+    </script>
+</head>
+<body>
+    <script>
+        // Driver
+        names = new Array("bradly", "anna", "john", "sherly", "adriane");
+        alert("The names available are: " + names);
+        document.write("The number of names having these two patterns (/ly$/) and (/ne$/) and at least one character 'a', in the array is: " + Patternmatch(names));
+    </script>
+
+</body>
+</html>

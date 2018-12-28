@@ -1,0 +1,57 @@
+<!--
+    Adelekan Faruq Aliu 27064896
+    SOEN 287 Assignment 2
+    Question 3 HTML file
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Question 3</title>
+    <style>
+        th {background-color: grey;}
+        td {background-color: gold; text-align: center; color: green;}
+    </style>
+    <script>
+        // first try
+        number = prompt("Please enter a number in order to generate a multiplication table.");
+        
+        if(number == null || number === "" || isNaN(number)) {
+            alert("Invalid entry!");
+            // second try
+            number = prompt("Please enter a number in order to generate a multiplication table.");
+            if(number == null || number === "" || isNaN(number)) {
+                document.write("No table can be generated!");
+                throw "Invalid entry";
+            } 
+        }
+
+        // generate multiplication table
+        document.write("<table border = '1' width = 50%>");
+        document.write("<tr><th>number</th>");
+        for(var k = 1; k <= number; k++)
+        {
+            document.write("<th>" + k + "</th>");
+        }
+        document.write("</tr>");
+
+        for(var i = 1; i <= number; i++)
+        {
+            document.write("<tr>");
+
+            document.write("<th>" + i + "</th>");  
+
+            for(var j = 1; j <= number; j++) 
+            {
+                document.write("<td>" + i*j + "</td>");                
+            }  
+            document.write("</tr>");
+        }
+        document.write("</table>");
+    </script>
+</head>
+<body>
+
+</body>
+</html>

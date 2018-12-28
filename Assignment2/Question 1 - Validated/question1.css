@@ -1,0 +1,88 @@
+/* 
+Adelekan Faruq Aliu 27064896 
+SOEN 287 Assignment 2
+Question 1 CSS file
+*/
+
+body {
+    background-image: url("BokuNoHero.jpg");
+    background-repeat: repeat;
+    /* image source: https://myanimelist.cdn-dena.com/images/anime/12/85221l.jpg */
+}
+
+div {
+    width: 400px;
+    padding: 10px;
+    border: 10px solid gray;
+    margin: 30px;
+    background-color: lightblue;
+    color: gray;
+}
+
+table {
+    width: 600px;
+    border: 15px dashed blue;
+    margin: 30px;
+}
+
+tr.headings {
+    padding: 10px;
+    color: whitesmoke;
+    background-color: purple;
+}
+
+td.secondRowA {
+    background-color: pink;
+    border: 3px solid palevioletred;
+}
+
+td.secondRowB {
+    background-color: lightgreen;
+    border: 3px solid green;
+}
+
+td.thirdRowA {
+    background-color: salmon;
+    border: 3px solid red;
+
+}
+td.thirdRowB {
+    background-color: lightyellow;
+    border: 3px solid darkgoldenrod;
+}
+
+ol.upRoman {
+    list-style-type: upper-roman;
+}
+
+ol.upAlpha {
+    list-style-type: upper-alpha;
+}
+ol.hiragana {
+    list-style-type: hiragana;
+}
+
+ul {
+    list-style-image: none;
+}
+
+ul.midoriya {
+    list-style-image: url('midoriya.png');
+    /* image source: https://i.redd.it/a1k2givbcto01.png */
+}
+
+ul.allmight {
+    list-style-image: url('allmight.png');
+    /* image source: https://discordemoji.com/assets/emoji/allmight.png */
+}
+
+ul.colour1 {
+    color: green;
+}
+ul.squareColour2 {
+    color: darkgoldenrod;
+    list-style-type: square;
+}
+
+
+

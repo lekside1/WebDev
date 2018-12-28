@@ -1,0 +1,17 @@
+#frm {
+    background-color: lightsteelblue;
+    width: 540px;
+    padding: 10px;
+}
+
+fieldset {
+    border: solid red;
+}
+
+#container {
+    color: mediumblue;
+}
+
+span {
+    font-weight: bold;
+}

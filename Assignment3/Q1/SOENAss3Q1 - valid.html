@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Question 1</title>
+    <script src="CharacterOccurences.js"></script>
+</head>
+<body>
+    <form>
+        <!-- user text input -->
+        <label>Enter your text here: </label>
+        <br/>
+        <textarea id="searchString" name="text" rows="4" cols="55"></textarea>
+        <br/>
+
+        <!-- user characters input -->
+        <label>Enter a character you want to search for:</label>
+        <br/>
+        <label><input id="characters" type="text" name="character" size="5"/></label>
+
+        <input id="searchButton" type="button" value="Search" onclick="searchOccurrences();"/>
+        <input id="Reset" type="button" value="Startover" onclick="startOver();"/>
+
+        <!-- results -->
+        <p id="output"></p>
+    </form>
+
+</body>
+</html>

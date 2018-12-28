@@ -1,0 +1,61 @@
+<!--
+    Adelekan Faruq Aliu 27064896
+    SOEN 287 Assignment 2
+    Question 2 HTML file
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Question 2</title>
+    <script>
+        // function to enter numerical data
+        function numericalData() 
+        {
+            var count = 0;
+            var input = 0;
+            var mult3 = 0;
+            var mult5 = 0;
+
+            do {
+                input = prompt("Please enter a number: ");
+                
+                if(input == null) {
+                    document.write("Exit" + "<br/>")
+                    break;
+                }
+
+                if(isNaN(input) || input === "") {} // checks if the input is numerical or empty. ignores invalid inputs
+
+                else 
+                {   
+                    if((input%3) == 0) {
+                        mult3++;
+                    }
+                    if((input%5) == 0) {
+                        mult5++;
+                    }
+                    count++;
+
+                    if(input == -1)
+                    {
+                        count--;
+                    }
+                }
+            } while(input != -1); 
+            
+            document.write("You entered " + count + " numbers. <br/>");
+            document.write("multiple of 3: " + mult3 + " numbers. <br/>");
+            document.write("multiple of 5: " + mult5 + " numbers. <br/>");
+        }
+    </script>
+</head>
+<body>
+    <h1>Question 2 Solution</h1>
+    <script>
+    numericalData();  // call the function
+    </script>
+    
+</body>
+</html>

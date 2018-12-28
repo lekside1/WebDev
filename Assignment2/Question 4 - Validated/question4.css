@@ -1,0 +1,14 @@
+/* 
+Adelekan Faruq Aliu 27064896 
+SOEN 287 Assignment 2
+Question 4 CSS file
+*/
+
+table {
+    border: 1px dotted red;
+    background-color: lightyellow;
+    margin: 15px;
+}
+th {
+    color: green;
+}

@@ -1,0 +1,105 @@
+/* CSS styling */
+body { 
+    background-color: rgb(209, 209, 106); 
+}
+.size { 
+    font-size: x-large; 
+}
+label { 
+    font-weight: bolder; 
+}
+
+#red { 
+    color: red; 
+}
+.lightred { 
+    color: #FF6666; 
+}
+.field_set1 {
+    border-color: red;
+    border-style: solid;
+    background-color: pink;
+}
+
+#blue { 
+    color:blue; 
+}
+.lightblue { 
+    color: lightblue; 
+}
+.field_set2 {
+    border-color: blue;
+    border-style: solid;
+    background-color: rgb(51, 160, 211);
+}
+.bold { 
+    font-weight: bold; 
+}
+
+#blue_color { 
+    color: blue; 
+}
+#field_set3 { 
+    border-color: blue; 
+}
+
+/* Exercise 4 */
+p.clock {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:10px;
+    font-size: 30px;
+}
+
+/* disclaimer + credits */
+div.disc a { 
+    color: grey;
+}
+div.disc a:hover
+{
+    color: yellow;
+}
+.disc {
+    background-color: purple;
+    width: 250px;
+    text-align: center;
+    color: grey;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    border-radius: 80px;
+    border-right: 10px;
+    padding: 5px;
+}
+
+/*login */
+ .topcorner {
+   position: fixed;
+   right: 100px;
+   font-weight: bold;
+   color: purple;
+  }
+
+div.account {
+    position: static;
+    border: solid grey 1px;
+    width: 20%;
+    border-radius: 5px;
+    margin: 10px auto;
+    background: purple;
+    color: white;
+    padding: 5px;
+}
+#create {
+    color: #fff;
+    background: #337ab7;
+    padding: 5px;
+    margin: center;
+}
+#login {
+    color: #fff;
+    background: #337ab7;
+    padding: 5px;
+    margin: center;
+}
